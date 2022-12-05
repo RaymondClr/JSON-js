@@ -67,7 +67,7 @@ var JSON2 = (function () {
                     length = value.length;
 
                     for (i = 0; i < length; i += 1) {
-                        partial[i] = str(i, value);
+                        partial[i] = str(i, value) || 'null';
                     }
 
                     if (partial.length === 0) {
@@ -116,8 +116,6 @@ var JSON2 = (function () {
 
                 gap = mind;
                 return v;
-            default:
-                return 'null';
         }
     }
 
