@@ -1,5 +1,5 @@
 # JSON-js
-JSON in ExtendScript
+为 Adobe 脚本语言 ExtendScript 适配的 JSON
 
 ## 调用方式调整
 
