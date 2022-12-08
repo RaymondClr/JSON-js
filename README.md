@@ -48,7 +48,7 @@ if (typeof Date.prototype.toJSON !== 'function') {
 ## 适配 ExtendScript 可以正确解析的时间格式
 
 ```jsx
-// ExtendScript 无法正确解析 ISO 格式的时间字符串，以下代码会返回错误的时间。
+// ExtendScript 无法正确解析 ISO 8601 日期字符串，以下代码会返回错误的时间。
 new Date("2012-04-23T18:25:43.511Z")
 
 // ExtendScript 能够正确解析的时间字符串格式
